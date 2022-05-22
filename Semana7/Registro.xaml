@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana7.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana de Registro" VerticalTextAlignment="Center" FontSize="40" />
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre" />
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario" />
+            <Entry x:Name="txtContrasena" Placeholder="**********" IsPassword="True" />
+
+            <Button x:Name="btnRegistrar" Text="Registrar" Clicked="btnRegistrar_Clicked" BackgroundColor="Salmon" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
